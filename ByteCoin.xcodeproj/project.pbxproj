@@ -14,6 +14,8 @@
 		CC104E0B28238884000B4AC3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC104E0A28238884000B4AC3 /* Assets.xcassets */; };
 		CC104E0E28238884000B4AC3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC104E0C28238884000B4AC3 /* LaunchScreen.storyboard */; };
 		CC104E19282388E4000B4AC3 /* CoinManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC104E18282388E4000B4AC3 /* CoinManager.swift */; };
+		CC367C2F28261F2E00076881 /* CoinData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC367C2E28261F2E00076881 /* CoinData.swift */; };
+		CC367C31282621D500076881 /* CoinModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC367C30282621D500076881 /* CoinModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		CC104E0D28238884000B4AC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CC104E0F28238884000B4AC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CC104E18282388E4000B4AC3 /* CoinManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinManager.swift; sourceTree = "<group>"; };
+		CC367C2E28261F2E00076881 /* CoinData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinData.swift; sourceTree = "<group>"; };
+		CC367C30282621D500076881 /* CoinModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +94,8 @@
 			isa = PBXGroup;
 			children = (
 				CC104E18282388E4000B4AC3 /* CoinManager.swift */,
+				CC367C2E28261F2E00076881 /* CoinData.swift */,
+				CC367C30282621D500076881 /* CoinModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -167,7 +173,9 @@
 			files = (
 				CC104E19282388E4000B4AC3 /* CoinManager.swift in Sources */,
 				CC104E0628238883000B4AC3 /* ViewController.swift in Sources */,
+				CC367C2F28261F2E00076881 /* CoinData.swift in Sources */,
 				CC104E0228238883000B4AC3 /* AppDelegate.swift in Sources */,
+				CC367C31282621D500076881 /* CoinModel.swift in Sources */,
 				CC104E0428238883000B4AC3 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
